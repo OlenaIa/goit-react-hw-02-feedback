@@ -1,6 +1,6 @@
+import { Component } from 'react';
 import { Statistics } from 'components/Statistics/Statistics';
 import { FeedbackOptions } from "components/FeedbackOptions/FeedbackOptions";
-import {Component} from 'react';
 import { Section } from 'components/Section/Section';
 import { Notification } from 'components/Notification/Notification';
 
@@ -51,9 +51,10 @@ export class Feedback extends Component {
                         badCounter={bad}
                         total={total}
                         positivePercentage={positivePercentage} />)
-                 : (<Notification message='There is no feedback' />)}
+                        : (<Notification
+                            message='There is no feedback' />)}    
                 </Section>  
             </>
         );
     }
-}
+};
