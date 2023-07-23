@@ -4,7 +4,7 @@ import { Feedback } from "./Feedback/Feedback";
 export const App = () => {
   return (
     <>
-      <MainTitle>React homework template</MainTitle>
+      <MainTitle>Feedback</MainTitle>
       <Feedback />
     </>
   );
